@@ -19,4 +19,13 @@ openUserRegistrationDialog(): void {
     width: '280px'
     });
   }
+
+
+  // This is the function that will open the dialog when the login button is clicked  
+  openLoginRegistrationDialog(): void {
+    this.dialog.open(UserRegistrationFormComponent, {
+    // Assigning the dialog a width
+      width: '280px'
+    });
+  }
 }
